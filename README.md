@@ -402,7 +402,7 @@ void Select_by_Student_Name(char cStudentName[][N],long lStudentID[],float fTest
             Output_row(fTestScore,i);
             found=1;
         }
-        if(found!=1&&i==iStudentNumber-1){printf("NOT FOUND!\n");}//如果没找到，则输出找不到这个野仔啦！
+        if(found!=1&&i==iStudentNumber-1){printf("NOT FOUND!\n");}//如果没找到，则输出找不到这个野仔啦!
     }
 }
 
